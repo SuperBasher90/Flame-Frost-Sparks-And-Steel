@@ -1,0 +1,95 @@
+{
+  "minecraft": {
+    "version": "1.18.2",
+    "modLoaders": [
+      {
+        "id": "forge-40.2.0",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "overrides": "overrides",
+  "manifestVersion": 1,
+  "version": "0.1.0",
+  "author": "SuperBasher90",
+  "name": "Flame Frost Sparks And Steel",
+  "files": [
+    {
+      "projectID": 264231,
+      "fileID": 5037775,
+      "required": true,
+      "__meta": {
+        "name": "Ice and Fire: Dragons",
+        "dependencies": [
+          331936
+        ]
+      }
+    },
+    {
+      "projectID": 282639,
+      "fileID": 5340751,
+      "required": true,
+      "__meta": {
+        "name": "Improved Mobs (Forge)",
+        "dependencies": [
+          312040
+        ]
+      }
+    },
+    {
+      "projectID": 312040,
+      "fileID": 5346709,
+      "required": true,
+      "__meta": {
+        "name": "TenshiLib (Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 328085,
+      "fileID": 4835188,
+      "required": true,
+      "__meta": {
+        "name": "Create"
+      }
+    },
+    {
+      "projectID": 331936,
+      "fileID": 3783096,
+      "required": true,
+      "__meta": {
+        "name": "Citadel",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 438447,
+      "fileID": 3785992,
+      "required": true,
+      "__meta": {
+        "name": "Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons"
+      }
+    },
+    {
+      "projectID": 465109,
+      "fileID": 4307858,
+      "required": true,
+      "__meta": {
+        "name": "InsaneLib",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 515276,
+      "fileID": 5042455,
+      "required": true,
+      "__meta": {
+        "name": "Enhanced AI",
+        "dependencies": [
+          465109
+        ]
+      }
+    }
+  ]
+}
